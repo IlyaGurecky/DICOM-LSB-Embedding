@@ -4,7 +4,7 @@ This tool designed for embedding some text to **DICOM** files using **LSB** meth
 
 ## Short Manual
 
-1. Check and set your config some config parameters to [constants.py](https://github.com/IlyaGurecky/DICOM-LSB-Embedding/blob/main/project/constants.py)
+1. Check and set your config some config parameters to [constants.py](https://github.com/IlyaGurecky/DICOM-LSB-Embedding/blob/main/project/constants.py)(DICOM Tag used for set message length in bits to extract message later)
     - BITS_PER_PIXEL - how many message bits will be embedded in the least significant bits of each pixel
     - RESULT_FILE - some template for new DICOM file name
     - DICOM_TAG_BLOCK - DICOM tag group name
