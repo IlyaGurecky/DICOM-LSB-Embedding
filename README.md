@@ -18,3 +18,9 @@ This tool designed for embedding some text to **DICOM** files using **LSB** meth
 4. Get new DICOM container name from /results/ folder
 
 5. Set this name to CONTAINER_NAME var in [main_extract.py](https://github.com/IlyaGurecky/DICOM-LSB-Embedding/blob/main/project/main_extract.py) and run this .py file
+
+## Example of embedding (7 bits per pixel, 40000 chars text)
+
+Original            |  After Embedding 
+:-------------------------:|:-------------------------:
+![](https://github.com/IlyaGurecky/DICOM-LSB-Embedding/blob/main/results/original.png)  |  ![](https://github.com/IlyaGurecky/DICOM-LSB-Embedding/blob/main/results/AfterEmbedding.png)
