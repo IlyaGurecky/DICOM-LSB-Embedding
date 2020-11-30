@@ -19,7 +19,7 @@ This tool designed for embedding some text to **DICOM** files using **LSB** meth
 
 5. Set this name to CONTAINER_NAME var in [main_extract.py](https://github.com/IlyaGurecky/DICOM-LSB-Embedding/blob/main/project/main_extract.py) and run this .py file
 
-## Example of embedding (7 bits per pixel, 40000 chars text)
+## Example of embedding (7 bits per pixel, 40000 russian chars text)
 
 Original            |  After Embedding 
 :-------------------------:|:-------------------------:
